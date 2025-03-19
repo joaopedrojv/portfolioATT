@@ -1,0 +1,18 @@
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: url('../img/bg.jpg') no-repeat center center/cover;
+    height: 50vh;
+}
+.card-img-top img{
+    width: 35px;
+}
+.container .img-perfil{
+    width: 200px;
+    border-radius: 50%;
+}
+.container{
+    border-width: 60px;
+}
