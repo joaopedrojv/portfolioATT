@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    background-color: #343a40; /* Cor de fundo do cabeçalho */
+    background-color: #000; 
+    text-align: center;
 }
 
 section {
@@ -18,4 +19,7 @@ section {
 
 img {
     border: 5px
+}
+.rodape{
+    text-align: center;
 }

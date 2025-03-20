@@ -6,29 +6,46 @@
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
 
-   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Meu Portfólio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sobre">Sobre Mim <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#atividades">Atividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <header class="bg-dark text-white text-center py-5">
         <h1>Meu Portfólio</h1>
-        <p>Estudande de TI | Gestão de negócios</p>
+        <p>Estudante de TI | Gestão de negócios</p>
     </header>
 
-   
     <div class="container text-center my-5">
         <img src="imagens/WhatsApp Image 2025-03-19 at 12.27.09.jpeg" alt="Minha Foto" class="img-fluid rounded-circle" style="width: 200px;">
     </div>
 
-   
-    <section class="container">
+    <section class="container" id="sobre">
         <h2>Sobre Mim</h2>
         <p>Olá! Meu nome é João Pedro e sou um estudante de TI e tenho um Banho e Tosa. Sou formado em Processos Gerenciais e hoje estou cursando ADS na UniCesumar. Aqui você pode encontrar alguns dos meus trabalhos e projetos.</p>
     </section>
 
-   
-    <section class="container mb-5">
-        <h2>Atividades Recentes</h2>
+    <section class="container mb-5" id="atividades">
+        <h2>Atividades</h2>
         <table class="table table-bordered">
             <thead class="thead-dark">
                 <tr>
@@ -38,8 +55,32 @@
             </thead>
             <tbody>
                 <tr>
+                    <td>07/2018</td>
+                    <td>Administração de Conflitos e Relacionamentos - Disciplina do curso de Engenharia de Software.</td>
+                </tr>
+                <tr>
+                    <td>09/2018</td>
+                    <td>Engenharia de Requisitos - Disciplina do curso de Engenharia de Software.</td>
+                </tr>
+                <tr>
+                    <td>09/2018</td>
+                    <td>Engenharia de Software - Disciplina do curso de Engenharia de Software.</td>
+                </tr>
+                <tr>
+                    <td>10/2018</td>
+                    <td>Estatística - Disciplina do curso de Engenharia de Software.</td>
+                </tr>
+                <tr>
+                    <td>11/2021</td>
+                    <td>Atividade Complementar - Curso de Proficiência: Competências Universitárias - Gestão de Finanças.</td>
+                </tr>
+                <tr>
+                    <td>04/2022</td>
+                    <td>Atividade Complementar - Projeto de Ensino: Oratória para Trabalhos e Reuniões online.</td>
+                </tr>
+                <tr>
                     <td>11/2024</td>
-                    <td>Desenvolvimento AEP 2 Semestre - CRUD com objetivo de criptografar a senha de usuarios de uma determinada empresa a fim de garantir a segurança.</td>
+                    <td>Desenvolvimento AEP 2 Semestre - CRUD com objetivo de criptografar a senha de usuários de uma determinada empresa a fim de garantir a segurança.</td>
                 </tr>
                 <tr>
                     <td>02/2025</td>
@@ -47,18 +88,17 @@
                 </tr>
                 <tr>
                     <td>02/2025</td>
-                    <td>Curso MySQL [40 Horas] Em Andamento - Curso sobre o sistema de gerenciamento de banco de dados .</td>
+                    <td>Curso MySQL [40 Horas] Em Andamento - Curso sobre o sistema de gerenciamento de banco de dados.</td>
                 </tr>
                 <tr>
                     <td>02/2025</td>
-                    <td>Python 3 Mundo 1 [40 Horas] Em Andamento .</td>
+                    <td>Python 3 Mundo 1 [40 Horas] Em Andamento.</td>
                 </tr>
             </tbody>
         </table>
     </section>
 
-    
-    <section class="container bg-light p-4 rounded mb-5">
+    <section class="container" id="contato">
         <h2>Contato</h2>
         <form>
             <div class="form-group">
@@ -77,12 +117,21 @@
         </form>
     </section>
 
-    <footer class="bg-dark text-white text-center py-4">
+    <section class="container text-center my-5">
+        <h2>Redes Sociais</h2>
+        <a href="https://www.instagram.com/joaopedrojv" target="_blank" class="mx-2">
+            <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-junqueira-vicentini-084067300/" target="_blank" class="mx-2">
+            <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="mailto:pedrojunq2015@hotmail.com" class="mx-2">
+            <i class="fas fa-envelope fa-2x"></i>
+        </a>
+    </section>
+
+    <footer class="rodape">
         <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <script src="https://code.jquery.com/jquery-3.5.1
